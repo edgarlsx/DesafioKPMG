@@ -6,12 +6,13 @@ Pelo fato de ser apenas um teste, não utilizei banco de dados SQL server, utili
 * Quando enviado um POST, deixei um retorno com a quantidade de registros na memória.
 * No arquivo de configuração é possível alterar o tempo do serviço que roda em segundo plano para salvar os registros que estão acumulados na memória.
 > Exemplo de envio para GameResult Url_da_Aplicacao/gameresult
-*{
+* {
     "gameId": 0,
     "playerId": 2,
     "win": 10,
     "timeStamp": "2021-04-09T19:45:47.702Z"
-}*
+}
+
 > Busca 100 Melhores LeaderBoard Url_da_Aplicacao/leaderboard 
 * Não é necessário parametros.
 
