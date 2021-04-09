@@ -1,0 +1,32 @@
+﻿[
+  {
+    "gameId": 0,
+    "playerId": 1,
+    "win": 5,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+  },
+  {
+    "gameId": 1,
+    "playerId": 1,
+    "win": 10,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+  },
+  {
+    "gameId": 0,
+    "playerId": 2,
+    "win": 10,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+  },
+  {
+    "gameId": 1,
+    "playerId": 2,
+    "win": 15,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+  },
+  {
+    "gameId": 2,
+    "playerId": 2,
+    "win": 20,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+  }
+]

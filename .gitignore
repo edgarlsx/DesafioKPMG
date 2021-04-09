@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/src/Api/bin/Debug/net5.0
+/src/Api/obj
+/src/Core/bin/Debug/netcoreapp3.1
+/src/Core/obj
+/tests/obj
+/tests/bin/Debug/netcoreapp3.1
