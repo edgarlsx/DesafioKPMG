@@ -1,6 +1,20 @@
 ## Desafio técnico fullstack – KPMG
   Tempo para realização da prova: 72 horas
 
+### Projeto Concluído, Feito com .Net Core(5.0) e Banco de Dados arquivo(Json)
+Pelo fato de ser apenas um teste, não utilizei banco de dados SQL server, utilizei um banco arquivo jSon.
+* Quando enviado um POST, deixei um retorno com a quantidade de registros na memória.
+* No arquivo de configuração é possível alterar o tempo do serviço que roda em segundo plano para salvar os registros que estão acumulados na memória.
+> Exemplo de envio para GameResult Url_da_Aplicacao/gameresult
+*{
+    "gameId": 0,
+    "playerId": 2,
+    "win": 10,
+    "timeStamp": "2021-04-09T19:45:47.702Z"
+}*
+> Busca 100 Melhores LeaderBoard Url_da_Aplicacao/leaderboard 
+* Não é necessário parametros.
+
 ### Contexto
 Você está trabalhando para uma empresa de jogos online que opera vários servidores de jogos. Cada jogo resulta em ganho ou perda de pontos para o jogador.
 Dados são mantidos em memória por cada servidor e periodicamente esses dados são persistidos. Sua tarefa é implementar um serviço que exponha 2 endpoints:
